@@ -10,52 +10,58 @@
 </head>
 <body>
   <header class="site-header">
-    <h1 class="site-header__logo"></h1>
-    <nav class="main-nav">
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list main-nav--closed">
-          <li class="main-nav__item"><a href="#">Главная</a></li>
-          <li class="main-nav__item"><a href="#">Наши работы</a></li>
-          <li class="main-nav__item"><a href="#">Записаться</a></li>
-          <li class="main-nav__item"><a href="#">Контакты</a></li>
-          <li class="main-nav__item"><a href="#">Html Academy</a></li>
-        </ul>
-        <ul class="main-nav__entry-list">
-          <li><a href="#"> Вход</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="site-header__wrapper">
+      <div class="site-header__logo"><img src="./img/logo.svg"/></div>
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list main-nav--closed">
+            <li class="main-nav__item"><a href="#">Главная</a></li>
+            <li class="main-nav__item"><a href="#">Наши работы</a></li>
+            <li class="main-nav__item"><a href="#">Записаться</a></li>
+            <li class="main-nav__item"><a href="#">Контакты</a></li>
+            <li class="main-nav__item"><a href="#">Html Academy</a></li>
+          </ul>
+          <ul class="main-nav__entry-list main-nav--closed">
+            <li><a href="#"> Вход</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
   <section class="stats">
     <div class="stats__wrapper">
-      <table class="stats__table"></table>
-      <tr> 
-        <td>
-          <h1 class="stats__motto">Стрижка у нас это выгодно!</h1>
-        </td>
-        <td>
-          <h2 class="stats__numbers">1 500<sup>*</sup></h2>
-          <p class="stats__fact">рублей вложений</p>
-        </td>
-        <td>
-          <h2 class="stats__numbers">7 200<sup>*</sup></h2>
-          <p class="stats__fact">секунд времени</p>
-        </td>
-      </tr>
-      <tr>
-        <td> 
-          <p class="stats__stats"> </p>Мужская стрижка требует <br/>точного подхода. Обратимся к статистике:
-          <blockquote class="stats__note">* - приведенные данные ложь</blockquote>
-        </td>
-        <td>
-          <h2 class="stats__numbers">90 000</h2>
-          <p class="stats__fact">постриженных волос</p>
-        </td>
-        <td>
-          <h2 class="stats__fact">500 000 <sup>*</sup></h2>
-          <p class="stats__fact">лайков и комплиментов</p>
-        </td>
-      </tr>
+      <table class="stats__table">
+        <tr> 
+          <td>
+            <h1 class="stats__motto">Стрижка у нас </h1>
+            <h1 class="stats__motto">это выгодно!</h1>
+          </td>
+          <td>
+            <h2 class="stats__numbers">1 500<sup>*</sup></h2>
+            <p class="stats__fact">рублей вложений</p>
+          </td>
+          <td>
+            <h2 class="stats__numbers">7 200</h2>
+            <p class="stats__fact">секунд времени</p>
+          </td>
+        </tr>
+        <tr>
+          <td> 
+            <p class="stats__stats">Мужская стрижка требует </p>
+            <p class="stats__stats">точного подхода. Обратимся</p>
+            <p class="stats__stats">к статистике:</p>
+            <blockquote class="stats__note">* - приведенные данные ложь</blockquote>
+          </td>
+          <td>
+            <h2 class="stats__numbers">90 000</h2>
+            <p class="stats__fact">постриженных волос</p>
+          </td>
+          <td>
+            <h2 class="stats__numbers">500 000 <sup>*</sup></h2>
+            <p class="stats__fact">лайков и комплиментов</p>
+          </td>
+        </tr>
+      </table>
     </div>
   </section>
   <section class="feature">

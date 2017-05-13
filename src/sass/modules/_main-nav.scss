@@ -15,8 +15,8 @@
     &__list {
         display: inline;
         text-align: center;
-        padding-left:75px;
-        padding-right:75px;
+        padding-left:px;
+        padding-right:132px;
 
     }
     &__item {
@@ -38,5 +38,11 @@
     &__entry-list {
         display: inline-block;
         padding-left:0px;
+    }
+    &--closed {
+        @include atSmall {
+        display: none;
+
+        }
     }
 }

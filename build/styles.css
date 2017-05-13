@@ -1,11 +1,15 @@
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%; }
 
 body {
   overflow-x: hidden;
   margin: 0px;
   padding: 0px;
-  font-size: 16px; }
+  font-size: 16px;
+  height: 100%;
+  width: 100%; }
 
 *,
 *::before,
@@ -23,13 +27,32 @@ li {
 a {
   text-decoration: none; }
 
-.site-header__logo {
+.site-header {
   background-image: url("./img/bg-desktop.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 200vh;
   height: 90vh; }
+  @media (max-width: 699px) {
+    .site-header {
+      position: absolute;
+      width: 699px; } }
+  .site-header__logo {
+    width: 370px;
+    height: 150px;
+    max-width: 100%;
+    position: absolute;
+    left: 350px;
+    right: 350px;
+    top: 200px; }
+    .site-header__logo img {
+      height: 100%;
+      width: 100%; }
+  .site-header__wrapper {
+    position: relative;
+    width: 1170px;
+    margin: 0px auto; }
 
 .main-nav {
   position: absolute;
@@ -46,8 +69,8 @@ a {
   .main-nav__list {
     display: inline;
     text-align: center;
-    padding-left: 75px;
-    padding-right: 75px; }
+    padding-left: px;
+    padding-right: 132px; }
   .main-nav__item {
     display: inline;
     padding-top: 0px;
@@ -63,3 +86,62 @@ a {
   .main-nav__entry-list {
     display: inline-block;
     padding-left: 0px; }
+  @media (max-width: 699px) {
+    .main-nav--closed {
+      display: none; } }
+
+.stats {
+  position: relative;
+  background-color: #353535;
+  height: 100%;
+  width: 100%; }
+  .stats__wrapper {
+    margin: 0px auto;
+    width: 1170px;
+    position: relative; }
+  .stats__table {
+    position: absolute;
+    top: -170px;
+    width: 100%;
+    height: 320px;
+    background-color: #292929;
+    border-collapse: collapse; }
+  .stats__motto {
+    color: #000000;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 0.8; }
+  .stats__stats {
+    color: #000000;
+    font-family: "PT Sans Narrow", sans-serif;
+    line-height: 0.8;
+    font-weight: 300; }
+  .stats__note {
+    color: #f1f1f1; }
+  .stats__numbers {
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-left: 45px; }
+  .stats__fact {
+    color: #fff;
+    font-weight: 500;
+    font-family: "PT Sans Narrow", sans-serif;
+    padding-left: 45px; }
+  .stats td:nth-child(1) {
+    background-color: #fff;
+    border: none;
+    padding: 45px;
+    padding-top: 0px;
+    width: 400px; }
+  .stats td:nth-child(2) {
+    padding-left: 45px;
+    background-color: #404040; }
+  .stats td:nth-child(3) {
+    background-color: #4e4e4e; }
+  .stats td:nth-child(4) {
+    background-color: #fff;
+    border: none;
+    padding: 45px;
+    width: 400px; }

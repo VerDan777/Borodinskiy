@@ -9,8 +9,9 @@ head
     title Document
 body
     header.site-header
-        h1.site-header__logo
-          
+      .site-header__wrapper
+        .site-header__logo
+            img(src="./img/logo.svg")  
         nav.main-nav
             .main-nav__wrapper
                 ul.main-nav__list.main-nav--closed
@@ -19,34 +20,34 @@ body
                     li.main-nav__item: a(href="#") Записаться
                     li.main-nav__item: a(href="#") Контакты
                     li.main-nav__item: a(href="#") Html Academy
-                ul.main-nav__entry-list
+                ul.main-nav__entry-list.main-nav--closed
                     li: a(href="#")  Вход
     section.stats
         .stats__wrapper
-            table.stats__table
+         table.stats__table
             tr 
                 td
-                    h1.stats__motto Стрижка у нас это выгодно!
+                    h1.stats__motto Стрижка у нас 
+                    h1.stats__motto это выгодно!
                 td
                     h2.stats__numbers 1 500
                         sup *
                     p.stats__fact рублей вложений
                 td
                     h2.stats__numbers 7 200
-                        sup *
+                        
                     p.stats__fact секунд времени
             tr
                 td 
-                    p.stats__stats 
-                    |Мужская стрижка требует 
-                    br
-                    |точного подхода. Обратимся к статистике:
+                    p.stats__stats Мужская стрижка требует 
+                    p.stats__stats точного подхода. Обратимся
+                    p.stats__stats к статистике:
                     blockquote.stats__note * - приведенные данные ложь
                 td
                     h2.stats__numbers 90 000
                     p.stats__fact постриженных волос
                 td
-                    h2.stats__fact 500 000 
+                    h2.stats__numbers 500 000 
                         sup *
                     p.stats__fact лайков и комплиментов
     section.feature

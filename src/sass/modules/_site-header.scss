@@ -1,14 +1,42 @@
 
 .site-header {
     // position: relative;
-  &__logo {
     background-image:url("./img/bg-desktop.png"); 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width:200vh;
     height:90vh;
-   
+    @include atSmall {
+        position: absolute;
+        width: 699px;
+        
+    }
+  &__logo {
+    width: 370px;
+    height: 150px;
+    max-width: 100%;
+    position: absolute;
+    left:350px;
+    right:350px;
+    top:200px;
+    // @include atSmall {
+        
+    // }
+      
+img {
+    //box model
+    height: 100%;
+    width: 100%;
+
+}
+
+
+  }
+  &__wrapper {
+    position: relative;
+    width:1170px;
+    margin: 0px auto;
   }
 
   }
