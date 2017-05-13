@@ -1,0 +1,28 @@
+.news {
+    position: relative;
+    &__wrapper {
+        width: 1170px;
+        margin: 0px auto;
+    }
+    &__intro {
+        padding-left:40px;
+        color:$colorTitle;
+        font-family: $mainFont;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__block {
+        display: inline-block;
+        padding:70px;
+    }
+    &__text {
+        color:$colorTitle;
+        line-height: 0.8;
+        font-weight: 500;
+    }
+    &__icon {
+
+    }
+
+}

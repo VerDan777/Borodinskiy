@@ -1,0 +1,25 @@
+.button {
+    // position: relative;
+    border:1px solid $line;
+    background-color: $white;
+    color:$colorTitle;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:25px; 
+    padding-right: 25px;
+    text-transform: uppercase;
+    outline: none;
+ 
+}
+ .button--news {
+        position: absolute;
+        right:240px; 
+        top:0px;
+    }
+.button--reviews {
+    position: absolute;
+    right: 227px; 
+    top:400px;
+    
+}
