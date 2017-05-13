@@ -104,11 +104,42 @@ body
                 |нет! Как так? Приходите, 
                 |постригитесь и узнаете, в чем
                 |здесь подвох!
-    section.reviews
-        .reviews__wrapper
-             button.button Оставить свой
-        h1.reviews__title Отзывы о нас
+    section.review
+        .review__wrapper
+                button.button Оставить свой
+                h1.review__maintitle Отзывы о нас
+                button.button.button__review--left
+                button.button.button__review--right
+
+                .review__review
+                    .review__icon 
+                       img(src="#")
+                    .review__author Трэвис Баркер
+                    .review__text Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+                    label(for="").review__paginator 1
+                    label(for="").review__paginator 2
+                    label(for="").review__paginator 3
+    footer.site-footer
+        .social__wrapper
+            .social__contacts 
+                h2.social__title Барбершоп Бородинский 
+                p.social__address г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+                p.social__phone Тел.: +7 (812) 555-66-66
+            .social__links
+                h2.social__title Давайте дружить!
+                .social__links
+                    img(src="#").social__links--vk
+                    img(src="#").social__links--fb
+                    img(src="#").social__links--in
+            .social__develop
+                h2.social__title Разработано
+                h3.social__title--main HTML Academy
         
+                
+                
+
+
+
 
 
         
