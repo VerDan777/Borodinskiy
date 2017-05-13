@@ -1,0 +1,33 @@
+.feature {
+    position: relative;
+    background-color:#353535; 
+    &__wrapper {
+        width:1170px;
+        margin: 0px auto;
+    }
+    &__block {
+        display: inline-block;
+        margin:85px;
+    }
+    &__icon {
+        padding-left:50px;
+        padding-right:50px;
+    }
+    &__title {
+        color:$white; 
+        padding-left:65px;
+        padding-right:65px;  
+        font-family: $mainFont;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-transform: uppercase;
+
+    }
+    &__text {
+        color:$white;
+        line-height: 0.6;
+        font-family: $mainFont;
+        text-align: center;
+
+    }
+}
