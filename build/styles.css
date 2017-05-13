@@ -1,1 +1,65 @@
-@import url(normalize.css);
+html {
+  overflow-x: hidden; }
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.site-header__logo {
+  background-image: url("./img/bg-desktop.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200vh;
+  height: 90vh; }
+
+.main-nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: black;
+  height: 100px; }
+  .main-nav__wrapper {
+    width: 1170px;
+    margin: 0px auto;
+    margin-top: 35px;
+    margin-bottom: 35px; }
+  .main-nav__list {
+    display: inline;
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 75px; }
+  .main-nav__item {
+    display: inline;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px; }
+  .main-nav a {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'PT Sans Narrow',sans-serif;
+    text-transform: uppercase; }
+  .main-nav__entry-list {
+    display: inline-block;
+    padding-left: 0px; }

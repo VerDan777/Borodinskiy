@@ -1,9 +1,9 @@
-//normalize.css
-@import "normalize.css";
+
 //main
 @import "base/global";
 @import "base/vars";
 @import "base/mixins";
 
 //modules
-
+@import "modules/_site-header";
+@import "modules/main-nav";

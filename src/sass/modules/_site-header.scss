@@ -1,0 +1,14 @@
+
+.site-header {
+    // position: relative;
+  &__logo {
+    background-image:url("./img/bg-desktop.png"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:200vh;
+    height:90vh;
+   
+  }
+
+  }
