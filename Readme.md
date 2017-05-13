@@ -1,2 +1,1 @@
 #Borodinskiy adapive
-ß

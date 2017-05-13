@@ -1,0 +1,32 @@
+{
+  "name": "borodinskiy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerDan777/Borodinskiy.git"
+  },
+  "keywords": [],
+  "author": "Daniil Vereschagin ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerDan777/Borodinskiy/issues"
+  },
+  "devDependencies": {
+  "gulp":"3.9.1",
+  "gulp-sass":"3.1.0",
+  "gulp-watch":"4.3.11",
+  "browser-sync":"2.18.8",
+  "gulp-pug2":"0.0.2",
+  "sass-module-importer":"1.4.0"
+
+  },
+  "dependencies": {
+    "normalize":"0.3.1"
+  },
+  "homepage": "https://github.com/VerDan777/Borodinskiy#readme"
+}
