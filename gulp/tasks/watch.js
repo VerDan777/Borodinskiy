@@ -5,14 +5,14 @@ const gulp =require('gulp');
 gulp.task('watch',function(){
     BrowserSync.init({
         server:{
-            baseDir:'dist'
+            baseDir:'build'
         }
     })
 
     //pug
     watch('./src/*.pug',function(){
         gulp.start('pugRender');
-    });
+    })
     //html 
     watch('./build/*.html',function(){
         BrowserSync.reload();
@@ -20,10 +20,10 @@ gulp.task('watch',function(){
     //styles
     watch('./src/sass/**/*.scss',function(){
         gulp.start('cssInject');
-    });
+    })
     //
 });
-gulp.task('cssinject',['styles'],function(){
+gulp.task('cssInject',['styles'],function(){
     gulp.src('./build/styles.css')
     .pipe(BrowserSync.stream());
 })
