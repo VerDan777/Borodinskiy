@@ -77,8 +77,12 @@
 
     }
     td:nth-child(2) {
-        padding-left: 45px;
+         padding-left: 45px;
         background-color: #404040;
+        @include atSmall {
+        padding:0px;
+
+        }
     }
     td:nth-child(3) {
         background-color: #4e4e4e;
