@@ -1,0 +1,77 @@
+.social {
+    position: relative;
+    &__wrapper {
+        width: 1170px; 
+        margin: 0px auto;
+    }
+      &__contacts {
+        max-width: 320px;
+        margin-right: 100px;
+        // padding: 60px 0px 60px;
+       
+    }
+    &__block {
+        display: inline-block;
+        // padding-left:50px; 
+        // padding-right: 160px;
+        padding: 60px 0px 60px;
+
+    }
+    &__title {
+        color:$white;
+        font-size: 1.5rem;
+        font-family:$mainFont;
+        line-height: 1;
+    }
+    &__address {
+        color:$white;
+        font-family: $mainFont;
+        font-size: 0.80rem;
+        line-height: 1;
+    }
+    &__phone {
+        color:$white;
+        font-size: 1rem;
+        font-family: $mainFont;
+        line-height: 1;
+    }
+    &__links {
+        margin-left: 200px;
+        margin-right:191px;
+        &--vk {
+             padding:10px;
+             border: 1px solid $white;
+            //  margin-left:5px; 
+            margin-right: 5px;
+             
+        }
+        &--in {
+            padding:10px;
+             border: 1px solid $white;
+            margin-left:5px; 
+            margin-right: 5px;
+        }
+        &--fb {
+            padding:10px;
+            margin-left:5px; 
+            margin-right: 5px;
+            border: 1px solid $white;
+        }
+    }
+    &__develop {
+        margin-left:0px; 
+        margin-right:0px;
+    }
+    &__link-inline {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        margin-left:30px;
+    }
+   &__title--main {
+    color:$white;
+    font-family: $mainFont;
+    font-weight: bold;
+    text-align: center;
+    }
+}

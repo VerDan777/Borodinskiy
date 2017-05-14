@@ -110,25 +110,28 @@ body
                     button.button.button__review--right: img(src="./img/arrow-right.png")
                     .review__icon 
                        img(src="./img/author.png")
-                    h2.review__author Трэвис Баркер
-                    p.review__text Спасибо за лысину! Был проездом в Москве, заскочил побриться,
-                    br
-                    |чтобы было видно новую татуировку!
-                    label(for="").review__paginator 1
-                    label(for="").review__paginator 2
-                    label(for="").review__paginator 3
+                    .review__review
+                        h2.review__author Трэвис Баркер
+                        p.review__text Спасибо за лысину! Был проездом в Москве, заскочил побриться,чтобы было видно новую татуировку!
+                .review__input-wrapper
+                    label: input(for="",type="radio").review__paginator 
+                    label: input(for="",type="radio").review__paginator 
+                    label: input(for="",type="radio").review__paginator 
     footer.site-footer
         .social__wrapper
+         ul.social__block
             .social__contacts 
                 h2.social__title Барбершоп Бородинский 
                 p.social__address г. Санкт-Петербург, ул. Большая Конюшенная 19/8
                 p.social__phone Тел.: +7 (812) 555-66-66
+         ul.social__block
             .social__links
                 h2.social__title Давайте дружить!
-                .social__links
-                    img(src="#").social__links--vk
-                    img(src="#").social__links--fb
-                    img(src="#").social__links--in
+                .social__link-inline
+                    img(src="./img/vk.png").social__links--vk
+                    img(src="./img/fb.png").social__links--fb
+                    img(src="./img/in.png").social__links--in
+         ul.social__block
             .social__develop
                 h2.social__title Разработано
                 h3.social__title--main HTML Academy

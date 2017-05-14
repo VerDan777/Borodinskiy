@@ -17,6 +17,8 @@
         margin-top:50px; 
         height: 161px;
         border:1px solid $line;
+        border-right:none;
+        border-left:none;
     }
     &__icon {
         max-width: 250px;
@@ -26,9 +28,9 @@
         left:100px;
     }
     &__author {
-        position: absolute;
-        top:0;
-        right:550px;
+        // position: absolute;
+        // top:0;
+        // right:550px;
         padding-top:20px;
         color:$colorTitle;
         font-size:1.5rem;
@@ -36,12 +38,38 @@
         font-family: $mainFont;  
     }
     &__text {
+        // position: absolute;
+        // top:0px;
+        // left:442px;
+        color:$colorTitle;
+        font-weight: 300;
+        font-family: $mainFont;
+        
+    }
+    &__review {
         position: absolute;
         top:0px;
-        left:100px;
-
-        color:$colorTitle;
+        left: 450px;
+        margin: 0px;
+        display: inline;
+        width: 600px;
         
+    }
+    &__input-wrapper {
+        padding-left:550px;
+        padding-right:550px; 
+         margin-top:50px;
+    }
+    &__paginator {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        background-image: url('./img/slider-indicator.png');
+        background-repeat: no-repeat;
+       background-position: 4px;
+        // background-origin:c
+        // margin-left:200px;
+        // margin-right: 500px; 
     }
 
 }

@@ -127,29 +127,45 @@
         <button class="button button__review--left"><img src="./img/arrow-left.png"/></button>
         <button class="button button__review--right"><img src="./img/arrow-right.png"/></button>
         <div class="review__icon"> <img src="./img/author.png"/></div>
-        <h2 class="review__author">Трэвис Баркер</h2>
-        <p class="review__text">Спасибо за лысину! Был проездом в Москве, заскочил побриться,</p><br/>чтобы было видно новую татуировку!
-        <label class="review__paginator" for="">1</label>
-        <label class="review__paginator" for="">2</label>
-        <label class="review__paginator" for="">3</label>
+        <div class="review__review">
+          <h2 class="review__author">Трэвис Баркер</h2>
+          <p class="review__text">Спасибо за лысину! Был проездом в Москве, заскочил побриться,чтобы было видно новую татуировку!</p>
+        </div>
+      </div>
+      <div class="review__input-wrapper">
+        <label>
+          <input class="review__paginator" for="" type="radio"/>
+        </label>
+        <label>
+          <input class="review__paginator" for="" type="radio"/>
+        </label>
+        <label>
+          <input class="review__paginator" for="" type="radio"/>
+        </label>
       </div>
     </div>
   </section>
   <footer class="site-footer">
     <div class="social__wrapper">
-      <div class="social__contacts"> 
-        <h2 class="social__title">Барбершоп Бородинский </h2>
-        <p class="social__address">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
-        <p class="social__phone">Тел.: +7 (812) 555-66-66</p>
-      </div>
-      <div class="social__links">
-        <h2 class="social__title">Давайте дружить!</h2>
-        <div class="social__links"><img class="social__links--vk" src="#"/><img class="social__links--fb" src="#"/><img class="social__links--in" src="#"/></div>
-      </div>
-      <div class="social__develop">
-        <h2 class="social__title">Разработано</h2>
-        <h3 class="social__title--main">HTML Academy</h3>
-      </div>
+      <ul class="social__block">
+        <div class="social__contacts"> 
+          <h2 class="social__title">Барбершоп Бородинский </h2>
+          <p class="social__address">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+          <p class="social__phone">Тел.: +7 (812) 555-66-66</p>
+        </div>
+      </ul>
+      <ul class="social__block">
+        <div class="social__links">
+          <h2 class="social__title">Давайте дружить!</h2>
+          <div class="social__link-inline"><img class="social__links--vk" src="./img/vk.png"/><img class="social__links--fb" src="./img/fb.png"/><img class="social__links--in" src="./img/in.png"/></div>
+        </div>
+      </ul>
+      <ul class="social__block">
+        <div class="social__develop">
+          <h2 class="social__title">Разработано</h2>
+          <h3 class="social__title--main">HTML Academy</h3>
+        </div>
+      </ul>
     </div>
   </footer>
 </body>
