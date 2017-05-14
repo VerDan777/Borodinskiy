@@ -14,12 +14,23 @@
 }
  .button--news {
         position: absolute;
-        right:240px; 
-        top:0px;
+        right:0px; 
+        top:30px;
     }
 .button--reviews {
     position: absolute;
-    right: 227px; 
-    top:400px;
+    right: 0px; 
+    top:30px;
+    // visibility: hidden;
     
+}
+.button__review--left {
+    height: 160px;
+    left: 0;
+}
+.button__review--right {
+    height: 160px;
+    position: absolute;
+    right: 0;
+
 }

@@ -82,21 +82,21 @@ body
             button.button.button--news Показать все 
             ul.news__block
                 .news__icon
-                    img(src="./img/date-block1.png")
+                    span 29
                 p.news__text Нам наконец завезли 
                 p.news_-text Ягермайстер! Теперь вы можете 
                 p.news__text пропусить стаканчик во время 
                 p.news__text стрижки.
             ul.news__block
                 .news__icon
-                    img(src="./img/date-block2.png")
+                    span 15
                 p.news__text В нашей команде пополнение, 
                 p.news__text Борис «Бритва» Стригунец
                 p.news__text пополнил наши стройные ряды. 
                 p.news__text Спешите записаться!
             ul.news__block
                 .news__icon
-                    img(src="./img/date-block3.png")
+                    span 16
                 p.news__text Все дорожает, а наши стрижки 
                 p.news__text нет! Как так? Приходите, 
                 p.news__text постригитесь и узнаете, в чем
@@ -104,15 +104,16 @@ body
     section.review
         .review__wrapper
                 button.button.button--reviews Оставить свой
-                h1.review__maintitle Отзывы о нас
-                button.button.button__review--left
-                button.button.button__review--right
-
-                .review__review
+                h1.news__intro Отзывы о нас
+                .review__form
+                    button.button.button__review--left:  img(src="./img/arrow-left.png")
+                    button.button.button__review--right: img(src="./img/arrow-right.png")
                     .review__icon 
-                       img(src="#")
-                    .review__author Трэвис Баркер
-                    .review__text Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+                       img(src="./img/author.png")
+                    h2.review__author Трэвис Баркер
+                    p.review__text Спасибо за лысину! Был проездом в Москве, заскочил побриться,
+                    br
+                    |чтобы было видно новую татуировку!
                     label(for="").review__paginator 1
                     label(for="").review__paginator 2
                     label(for="").review__paginator 3

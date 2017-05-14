@@ -1,0 +1,47 @@
+.review {
+    position: relative;
+   &__wrapper {
+    width: 1170px; 
+    margin: 0px auto;
+    position: relative;
+    }
+    &__maintitle {
+        color:$colorTitle;
+        font-size: 3.5rem;
+        font-family: $mainFont;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__form {
+        position: relative;
+        margin-top:50px; 
+        height: 161px;
+        border:1px solid $line;
+    }
+    &__icon {
+        max-width: 250px;
+        max-height: 160px;
+        position: absolute;
+        top:0px;
+        left:100px;
+    }
+    &__author {
+        position: absolute;
+        top:0;
+        right:550px;
+        padding-top:20px;
+        color:$colorTitle;
+        font-size:1.5rem;
+        font-weight: bolder;
+        font-family: $mainFont;  
+    }
+    &__text {
+        position: absolute;
+        top:0px;
+        left:100px;
+
+        color:$colorTitle;
+        
+    }
+
+}

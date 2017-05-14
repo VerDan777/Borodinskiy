@@ -7,11 +7,12 @@
     background-size: cover;
     width:200vh;
     height:90vh;
-    @include atSmall {
-        position: absolute;
-        width: 699px;
+    // @include atSmall {
+    //     position: absolute;
+    //     width: 100%
+    //     height: 100%;
         
-    }
+    // }
   &__logo {
     width: 370px;
     height: 150px;
