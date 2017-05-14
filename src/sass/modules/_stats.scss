@@ -6,7 +6,7 @@
     &__wrapper {
         margin: 0px auto;
         width:1170px;
-        // position: relative;
+        position: relative;
         padding-left:15px; 
         padding-right:15px;
         text-align: center; 
@@ -21,6 +21,11 @@
         height: 320px;
         background-color: $secondBg;
         border-collapse: collapse;
+        @include atSmall {
+        display:block;
+        width: 100%;
+
+        }
         
     }
 
@@ -64,6 +69,10 @@
         padding:45px;
         padding-top: 0px;
         width: 400px;
+        @include atSmall {
+            display: inline-block;
+            width: 100%;
+        }
     
 
     }

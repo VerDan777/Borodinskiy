@@ -12,8 +12,13 @@
         display: inline-block;
         margin:75px;
         margin-right:65px;
+        margin-left:65px;
         text-align: center;
-        // margin-left:105px;  
+        // margin-left:105px; 
+        @include atSmall {
+            margin-left:13px;
+            margin-right: 13px; 
+        } 
     }
     &__icon {
         padding-left:50px;

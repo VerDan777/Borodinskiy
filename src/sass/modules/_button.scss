@@ -25,6 +25,9 @@
     right: 0px; 
     top:30px;
     // visibility: hidden;
+    @include atSmall {
+        display: none;
+    }
     
 }
 .button__review--left {

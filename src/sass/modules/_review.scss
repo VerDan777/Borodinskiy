@@ -1,7 +1,7 @@
 .review {
     position: relative;
    &__wrapper {
-    width: 1170px; 
+    max-width: 1170px; 
     margin: 0px auto;
     position: relative;
     padding-left:15px;
@@ -20,7 +20,7 @@
     &__form {
         position: relative;
         margin-top:50px; 
-        height: 161px;
+        max-height: 161px;
         border:1px solid $line;
         border-right:none;
         border-left:none;
@@ -35,6 +35,8 @@
         @include atSmall {
             max-width: 75px;
             max-height: 75px;
+            top:30px;
+            left:0px;
         }
     }
     img {
@@ -58,19 +60,28 @@
         color:$colorTitle;
         font-weight: 300;
         font-family: $mainFont;
+        @include atSmall {
+            height: 120px;
+        }
         
     }
     &__review {
-        position: absolute;
-        // position: relative;
-        top:0px;
-        left: 450px;
-        margin: 0px;
+        // position: absolute;
+        // // position: relative;
+        // top:0px;
+        // left: 450px;
+        padding-left: 325px;
+        // padding-right:130px;
         display: inline-block;
-        width: 600px;
-        // text-align: center;
+        max-width: 600px;
+      @include atSmall {
+        padding-left: 85px;
+        padding-right:30px;
+      }
+
+        }
         
-    }
+    
     &__input-wrapper {
         padding-left:550px;
         padding-right:550px; 
