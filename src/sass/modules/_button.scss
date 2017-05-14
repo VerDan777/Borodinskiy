@@ -13,6 +13,9 @@
  
 }
  .button--news {
+     @include atSmall {
+         display: none;
+     }
         position: absolute;
         right:0px; 
         top:30px;
@@ -27,10 +30,15 @@
 .button__review--left {
     height: 160px;
     left: 0;
+    @include atSmall  {
+        display: none;
+    }
 }
 .button__review--right {
     height: 160px;
     position: absolute;
     right: 0;
-
+    @include atSmall {
+        display: none;
+    }
 }

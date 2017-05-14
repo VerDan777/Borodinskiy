@@ -2,8 +2,11 @@
     position: relative;
     background-color:#353535; 
     &__wrapper {
-        width:1170px;
+        max-width:1170px;
         margin: 0px auto;
+        padding-left:15px;
+        padding-right:15px;
+        text-align: center;
     }
     &__block {
         display: inline-block;

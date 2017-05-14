@@ -4,19 +4,31 @@
     left: 0px; 
     right: 0px;
     background-color:black;
-     height: 100px;
-
+    height: 100px;
+    //  padding-bottom: 200px;
+@include atSmall {
+    // width: 699px;
+}
     &__wrapper {
     width:1170px;
     margin: 0px auto;
     margin-top:35px;
     margin-bottom:35px;
+    // padding-bottom: 200px;
+    // @include atSmall {
+    //     width:500px;
+    //     margin: 0 auto;
+    // }
+    // }
     }
     &__list {
         display: inline;
         text-align: center;
         padding-left:px;
         padding-right:132px;
+        @include atSmall {
+
+        }
 
     }
     &__item {
@@ -45,4 +57,5 @@
 
         }
     }
-}
+    }
+
