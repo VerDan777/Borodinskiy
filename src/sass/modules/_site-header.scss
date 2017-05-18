@@ -7,18 +7,21 @@
     background-size: cover;
     width:200vh;
     height:90vh;
-    // @include atSmall {
-               
-        
-    // }
-   
+
+   &--bg-form {
+    height:45vh; 
+    background-size: cover;
+    
+   }
   &__logo {
     max-width: 100%;
     display: inline-block;
-    padding-left:350px; 
-    padding-right:350px;
+    padding-left:265px; 
+    padding-right:265px;
     margin-top:200px; 
     margin-bottom:200px;
+    margin-left:auto;
+    margin-right: auto;
     // text-align: center;
    @include atSmall {
     // margin-left:-200px;
@@ -50,6 +53,7 @@ img {
     // text-align: center;
     @include atSmall {
         margin: 0px;
+        max-width: 100%;
     }
     // position: absolute;
 
